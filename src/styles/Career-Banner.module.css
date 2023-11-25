@@ -1,0 +1,5 @@
+@media only screen and (max-width: 600px) {
+  .bannerImg {
+    margin-top: 2rem !important;
+  }
+}

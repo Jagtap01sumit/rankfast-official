@@ -1,0 +1,23 @@
+--h1-desk-font-size: 3.8rem;
+  --h1-mob-font-size: 3rem;
+  --h2-desk-font-size: 3rem;
+  --h2-mob-font-size: 2.5rem;
+  --h3-font-size: 1.7rem;
+  --h4-font-size: 1.25rem;
+  --h5-font-size: 1rem;
+  --h6-font-size: 0.875rem;
+
+
+
+  --h1-desk-font-size: 3.75rem;
+  --h1-mob-font-size: 2.5rem;
+  --h2-desk-font-size: 3rem;
+  --h2-mob-font-size: 2.5rem;
+  --h3-desk-font-size: 2.625rem;
+  --h3-mob-font-size: 2.25rem;
+  --h4-desk-font-size: 2.25rem;
+  --h4-mob-font-size: 1.5rem;
+  --h5-desk-font-size: 1.875rem;
+  --h5-mob-font-size: 1.3rem;
+  --h6-desk-font-size: 1.25rem;
+  --h6-mob-font-size: 1rem;

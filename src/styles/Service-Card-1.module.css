@@ -1,0 +1,28 @@
+.card {
+  background-color: transparent !important;
+  border: 1px solid #000;
+}
+
+.card:hover {
+  background: linear-gradient(
+    270deg,
+    rgba(185, 255, 54, 0.0008) 20%,
+    rgba(185, 255, 54, 0.08) 100%
+  ) !important;
+  border: 1px solid var(--teritory-color-2);
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    border-radius: 0;
+    border-top: 1px solid var(--teritory-color-2);
+  }
+
+  .card h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .last {
+    border-bottom: 1px solid var(--teritory-color-2);
+  }
+}

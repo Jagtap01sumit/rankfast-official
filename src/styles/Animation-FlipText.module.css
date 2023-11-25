@@ -1,0 +1,51 @@
+.flipContainer {
+  position: relative;
+  display: contents;
+}
+
+.word {
+  position: absolute;
+  transform-origin: center center;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transform: rotateX(90deg);
+  opacity: 0;
+  transition: transform 1.5s ease-in-out, opacity 1s ease-in-out;
+  -webkit-transition: transform 1.5s ease-in-out, opacity 1s ease-in-out;
+  -moz-transition: transform 1.5s ease-in-out, opacity 1s ease-in-out;
+  -ms-transition: transform 1.5s ease-in-out, opacity 1s ease-in-out;
+  -o-transition: transform 1.5s ease-in-out, opacity 1s ease-in-out;
+}
+
+.visible {
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 379px) {
+  .flipContainer {
+    display: list-item;
+    list-style: none;
+  }
+}
+
+@media only screen and (min-width: 528px) and (max-width: 604px) {
+  .flipContainer {
+    display: list-item;
+    list-style: none;
+  }
+}
+
+@media only screen and (min-width: 853px) and (max-width: 899px) {
+  .flipContainer {
+    display: list-item;
+    list-style: none;
+  }
+}
+
+@media only screen and (min-width: 915px) and (max-width: 992px) {
+  .flipContainer {
+    display: list-item;
+    list-style: none;
+  }
+}

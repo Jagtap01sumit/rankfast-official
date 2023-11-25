@@ -1,0 +1,17 @@
+.BannerImageContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  position: absolute;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+  .BannerImageContainer .bannerImage {
+    width: 60%;
+  }
+}

@@ -1,0 +1,62 @@
+.card {
+  background-color: transparent !important;
+  border: 1px solid var(--teritory-color-2) !important;
+  border-radius: 1rem !important;
+  -webkit-border-radius: 1rem !important;
+  -moz-border-radius: 1rem !important;
+  -ms-border-radius: 1rem !important;
+  -o-border-radius: 1rem !important;
+  position: relative;
+  padding: 2rem;
+  overflow: visible !important;
+}
+
+.quote1 {
+  position: absolute;
+  top: -7%;
+  left: 0;
+}
+
+.quote2 {
+  position: absolute;
+  bottom: -7%;
+  right: 0;
+}
+
+.testimonialText {
+  font-size: 1.5rem !important;
+}
+
+.mySwiper {
+  padding: 2rem !important;
+}
+
+.authorBox {
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    padding: 1rem;
+  }
+
+  .authorBox {
+    width: 100%;
+  }
+
+  .mySwiper {
+    padding: 2rem 0 !important;
+  }
+
+  .mySwiper {
+    padding: 1rem 0;
+  }
+
+  .quote1 {
+    top: -4%;
+  }
+
+  .quote2 {
+    bottom: -4%;
+  }
+}
